@@ -1,0 +1,10 @@
+// Setting for typescript to properly transpile into normal javascript code
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
+}
