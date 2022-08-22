@@ -9,3 +9,6 @@ async function bootstrap() {
 bootstrap();
 
 // The flow is as follows: When the appilcation starts up, Nest is going to look at the AppModule, find the list of controllers listed in the controllers property and create an instance of all the different controller classes. It is then to take a look at the decorators inside of it, and set up route handlers for each decorator that we use
+
+// to run the app from the terminal: npx ts-node-dev src/main.ts (when we start our project from scratch, this is the case here)
+// starting a project from the nest cli is different (we will see it later on) 
